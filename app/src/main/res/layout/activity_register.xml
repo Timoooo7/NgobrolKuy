@@ -49,11 +49,12 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
+                android:id="@+id/username"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Masukkan username Anda"
+                android:hint="Masukkan username Anda"
                 android:textSize="8pt"
                 android:textColor="@color/light_gray"/>
 
@@ -76,11 +77,12 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
+                android:id="@+id/email"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Masukkan email Anda"
+                android:hint="Masukkan email Anda"
                 android:textSize="8pt"
                 android:textColor="@color/light_gray"/>
 
@@ -103,11 +105,12 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
+                android:id="@+id/password"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Masukkan password Anda"
+                android:hint="Masukkan password Anda"
                 android:textSize="8pt"
                 android:textColor="@color/light_gray"/>
 
@@ -130,11 +133,12 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
+                android:id="@+id/conf"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Masukkan lagi password Anda"
+                android:hint="Masukkan lagi password Anda"
                 android:textSize="8pt"
                 android:textColor="@color/light_gray"/>
 
@@ -143,6 +147,7 @@
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/registerBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="32dp"
@@ -168,6 +173,7 @@
     </androidx.cardview.widget.CardView>
 
     <TextView
+        android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sudah punya akun?"

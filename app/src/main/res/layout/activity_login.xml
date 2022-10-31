@@ -75,7 +75,8 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
+                android:id="@+id/username"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -102,7 +103,8 @@
             app:cardCornerRadius="40dp"
             android:backgroundTint="@color/white">
 
-            <TextView
+            <EditText
+                android:id="@+id/password"
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -113,6 +115,7 @@
         </androidx.cardview.widget.CardView>
 
         <TextView
+            android:id="@+id/forgetBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -124,6 +127,7 @@
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="32dp"
@@ -149,6 +153,7 @@
     </androidx.cardview.widget.CardView>
 
     <TextView
+        android:id="@+id/registerBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Belum punya akun?"
